@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.SurfaceArea.Core", "Mindbox.SurfaceArea.Core\Mindbox.SurfaceArea.Core.csproj", "{C54E389C-0D45-4E33-8C19-F1ED15486F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9766FAD5-2EDC-44B4-867C-AB9B55F2DD7E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.SurfaceArea.UnitTests", "Mindbox.SurfaceArea.UnitTests\Mindbox.SurfaceArea.UnitTests.csproj", "{D127DF1A-6DCC-4E53-AFEF-2C64D64CC489}"
 EndProject
 Global
@@ -16,10 +14,6 @@ Global
 		{C54E389C-0D45-4E33-8C19-F1ED15486F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54E389C-0D45-4E33-8C19-F1ED15486F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54E389C-0D45-4E33-8C19-F1ED15486F5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9766FAD5-2EDC-44B4-867C-AB9B55F2DD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9766FAD5-2EDC-44B4-867C-AB9B55F2DD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9766FAD5-2EDC-44B4-867C-AB9B55F2DD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9766FAD5-2EDC-44B4-867C-AB9B55F2DD7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D127DF1A-6DCC-4E53-AFEF-2C64D64CC489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D127DF1A-6DCC-4E53-AFEF-2C64D64CC489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D127DF1A-6DCC-4E53-AFEF-2C64D64CC489}.Release|Any CPU.ActiveCfg = Release|Any CPU
