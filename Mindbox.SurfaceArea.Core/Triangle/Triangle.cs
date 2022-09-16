@@ -5,6 +5,8 @@ namespace Mindbox.SurfaceArea.Core.Triangle
 {
     public class Triangle : IFigure
     {
+        const double Tolerance = 0.000000001;
+        
         private double _sideA;
 
         public double SideA
@@ -49,12 +51,12 @@ namespace Mindbox.SurfaceArea.Core.Triangle
             _sideC = c;
         }
 
-        private void Validate(double a, double b, double c)
+        private static void Validate(double a, double b, double c)
         {
             var sides = new[] { a, b, c };
             if (sides.Any(s => s <= 0))
             {
-                throw new ArgumentException("Invalid triangle side.");
+                throw new ArgumentException("Non-positive triangle side length.");
             }
             var maxSide = sides.Max();
             if (maxSide >= sides.Sum() - maxSide) throw new ArgumentException("Invalid triangle.");
@@ -63,12 +65,11 @@ namespace Mindbox.SurfaceArea.Core.Triangle
         public double CalculateSurfaceArea()
         {
             var semiPerimeter = (_sideA + _sideB + _sideC) / 2;
-            return Math.Pow(
+            return Math.Sqrt(
                 semiPerimeter *
                 (semiPerimeter - _sideA) *
                 (semiPerimeter - _sideB) *
-                (semiPerimeter - _sideC),
-                0.5
+                (semiPerimeter - _sideC)
             );
         }
 
@@ -76,13 +77,8 @@ namespace Mindbox.SurfaceArea.Core.Triangle
         {
             var sides = new[] { _sideA, _sideB, _sideC };
             var maxSide = sides.Max();
-            var tolerance = 0.000000001;
-
-            if (Math.Abs(2 * Math.Pow(maxSide, 2) - (Math.Pow(_sideA, 2) + Math.Pow(_sideB, 2) + Math.Pow(_sideC, 2))) <
-                tolerance)
-                return true;
-
-            return false;
+            return Math.Abs(2 * Math.Pow(maxSide, 2) - (Math.Pow(_sideA, 2) + Math.Pow(_sideB, 2) + Math.Pow(_sideC, 2))) <
+                   Tolerance;
         }
     }
 }

@@ -22,9 +22,9 @@ namespace Mindbox.SurfaceArea.Core.Circle
             Radius = radius;
         }
 
-        private void Validate(double radius)
+        private static void Validate(double radius)
         {
-            if (radius <= 0) throw new ArgumentException("Invalid circle radius.");
+            if (radius <= 0) throw new ArgumentException("Non-positive circle radius.");
         }
 
         public double CalculateSurfaceArea() =>
