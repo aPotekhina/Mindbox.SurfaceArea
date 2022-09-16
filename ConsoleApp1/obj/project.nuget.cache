@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yTRo8wT+obl4oAT5Vkdvf2JE3rWXYfqjstRLoTkTfKkdccBNIp7zhfaxU6xswiG2b2QE0KgSe8zTO/jUGt+wzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aleks\\RiderProjects\\Mindbox.SurfaceArea\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

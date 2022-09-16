@@ -1,0 +1,12 @@
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\bin\Debug\net5.0\Mindbox.SurfaceArea.deps.json
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\bin\Debug\net5.0\Mindbox.SurfaceArea.dll
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\bin\Debug\net5.0\ref\Mindbox.SurfaceArea.dll
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\bin\Debug\net5.0\Mindbox.SurfaceArea.pdb
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.csprojAssemblyReference.cache
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.AssemblyInfoInputs.cache
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.AssemblyInfo.cs
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.csproj.CoreCompileInputs.cache
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.dll
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\ref\Mindbox.SurfaceArea.dll
+C:\Users\aleks\RiderProjects\Mindbox.SurfaceArea\Mindbox.SurfaceArea\obj\Debug\net5.0\Mindbox.SurfaceArea.pdb
